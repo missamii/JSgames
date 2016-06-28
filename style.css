@@ -1,0 +1,33 @@
+html{
+height: 100%;
+}
+
+body {
+
+
+}
+
+ul {
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+}
+
+div.container {
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: space-around;
+ align-items: center;
+ height: 100%;
+ width: 100%;
+ outline 1px solid black;
+}
+
+div.boxes {
+ width: 33%;
+ height: 33%;
+ border: 1px solid black;
+ font-size: 120pt;
+
+ font-family: Helvetica;
+}
